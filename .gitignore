@@ -1,0 +1,31 @@
+# --- Python Specific ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Environments ---
+# If you named your virtual environment .venv or venv
+.venv/
+venv/
+ENV/
+env/
+
+# --- Jupyter Notebooks ---
+# Temporary files created by Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- VS Code ---
+# VS Code specific settings
+.vscode/
+
+# --- Data & Distribution ---
+# Don't upload large data files or local distributions
+*.csv
+*.json
+dist/
+build/
+*.egg-info/
+
+.env
