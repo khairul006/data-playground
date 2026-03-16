@@ -29,3 +29,5 @@ build/
 *.egg-info/
 
 .env
+
+data/*.log
